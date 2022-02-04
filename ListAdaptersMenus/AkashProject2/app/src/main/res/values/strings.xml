@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">AkashProject2</string>
+
+
+    <string-array name="Flight">
+        <item>drawable/Flight.jpg</item>
+        <item>Robert Zemeckis</item>
+        <item>https://www.youtube.com/watch?v=DzV8R_86LX8</item>
+        <item>https://en.wikipedia.org/wiki/Robert_Zemeckis</item>
+        <item>https://en.wikipedia.org/wiki/Flight_(2012_film)</item>
+    </string-array>
+    
+    <string-array name="Raanjhana">
+        <item>Aanand L. Rai</item>
+
+    </string-array>
+</resources>

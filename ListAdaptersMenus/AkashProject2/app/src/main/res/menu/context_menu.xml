@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/movieClip"
+        android:title="Watch Trailer" />
+
+    <item
+        android:id="@+id/movieWiki"
+        android:title="Movie WiKi" />
+
+    <item
+        android:id="@+id/dirWiki"
+        android:title="Director Wiki" />
+
+</menu>
