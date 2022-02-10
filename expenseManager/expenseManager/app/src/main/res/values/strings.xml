@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">EM2</string>
+    <string-array name="expenceType">
+        <item>FOOD</item>
+        <item>FUEL</item>
+        <item>EDUCATION</item>>
+        <item>HEALTH</item>
+        <item>SHOPPING</item>
+        <item>TRANSPORT</item>
+        <item>OTHER</item>
+    </string-array>
+    <string-array name="incomeType">
+        <item>SALARY</item>
+        <item>LOAN</item>
+        <item>POCKET MONEY</item>
+        <item>REFUNDS</item>
+        <item>PROFIT</item>
+        <item>ALLOWANCE</item>
+        <item>OTHER</item>
+    </string-array>
+</resources>

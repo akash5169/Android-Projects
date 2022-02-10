@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="com.example.em2.mainPage">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/logout"
+                android:layout_height="40sp"
+                android:layout_width="120sp"
+                android:text="Logout"
+                android:textSize="25sp"
+                android:background="@color/colorAccent"
+                android:layout_marginLeft="550px"/>
+
+            <ImageButton
+                android:id="@+id/expense"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="41dp"
+                app:srcCompat="@drawable/expense"
+                android:layout_below="@+id/textView6" />
+
+            <ImageButton
+                android:id="@+id/income"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/income"
+                android:layout_below="@+id/expense"
+                android:layout_alignRight="@+id/expense"
+                android:layout_alignEnd="@+id/expense" />
+
+            <Button
+                android:id="@+id/stats"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:elevation="10dp"
+                android:padding="20dp"
+                android:text="STATS"
+                android:textSize="25sp"
+                android:layout_below="@+id/income"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="22dp"
+                android:layout_marginStart="22dp"
+                android:layout_marginTop="31dp"
+                android:background="@color/colorPrimary" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

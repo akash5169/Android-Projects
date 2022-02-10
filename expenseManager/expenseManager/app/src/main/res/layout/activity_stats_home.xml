@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.em2.StatsHome">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/lable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CURRENT BALANCE"
+            android:padding="20px"
+            android:textColor="#000000"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/balance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lable"
+            android:textColor="#34D38F"
+            android:padding="20px"
+            android:textStyle="normal|bold" />
+
+        <Button
+            android:id="@+id/incomeBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/balance"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="181dp"
+            android:layout_toEndOf="@+id/balance"
+            android:backgroundTint="#009999"
+            android:text="View EXPNECE" />
+
+        <Button
+            android:id="@+id/expenseBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/incomeBtn"
+            android:layout_alignStart="@+id/incomeBtn"
+            android:layout_marginBottom="76dp"
+            android:backgroundTint="#009999"
+            android:text="View INCOME" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/incomeBtn"
+            android:layout_below="@+id/incomeBtn"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="#009999"
+            android:text="View Graphs"
+            android:id="@+id/grapBtn"/>
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

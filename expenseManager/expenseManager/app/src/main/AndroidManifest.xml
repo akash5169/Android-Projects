@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.em2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/appsymbol"
+        android:label="EXPENSE MANAGER"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".mainPage"
+            android:label="HOME" />
+        <activity
+            android:name=".ExpenseForm"
+            android:label="ADD EXPENCE" />
+        <activity
+            android:name=".IncomeForm"
+            android:label="ADD INCOME" />
+        <activity
+            android:name=".ViewExpense"
+            android:label="EXPENSE LOG" />
+        <activity
+            android:name=".StatsHome"
+            android:label="STATISTICS" />
+        <activity
+            android:name=".ViewIncome"
+            android:label="INCOME LOG" />
+        <activity android:name=".PieChartPage"></activity>
+    </application>
+
+</manifest>
